@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #7c3aed;
+  --primary-color: #fbbf24;
   --off-white: #f3f4f6;
   --dark-gray: #6b7280;
 }
@@ -26,6 +26,7 @@ hr {
 /** container **/
 .container {
   padding: 0rem 1rem;
+  font-size: 20px;
 }
 
 .container-center {
@@ -38,12 +39,13 @@ hr {
 .link {
   box-sizing: border-box;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
+  color: #fff;
 }
 
 .link-primary {
   max-width: 140px;
-  padding: 0.6rem 1.2rem;
+  padding: 0.5rem 1.2rem;
   background-color: var(--primary-color);
   color: #fff;
   margin: 1rem auto;
@@ -80,6 +82,7 @@ hr {
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
+  font-size:25px;
 }
 
 .navigation .nav-brand {
@@ -109,18 +112,21 @@ hr {
 .hero {
   padding: 2rem;
   padding-top: 5rem;
+  
+  
 }
 
-.hero .hero-img {
+.hero .hero-image {
   max-width: 80%;
+  padding-left: 450px;
   width: 550px;
   display: block;
-  margin: auto;
 }
 
 .hero .hero-heading {
   text-align: center;
   padding-top: 1rem;
+  padding-left: 100px;
   color: var(--dark-gray);
 }
 
@@ -153,6 +159,7 @@ hr {
   text-align: center;
   color: white;
   border-top-right-radius: 1rem;
+  
 }
 
 .footer .link {
@@ -161,11 +168,15 @@ hr {
 
 .footer .footer-header {
   font-weight: bold;
-  font-size: large;
+  padding-inline-start: 1em;
+  font-size: 25px;
 }
 
 .footer ul {
-  padding-inline-start: 0px;
+  padding-inline-start: px;
+  font-size: 20px;
+  word-spacing: 10px;
+
 }
 
 /** projects **/
@@ -207,4 +218,9 @@ hr {
 
   .link-primary {
     display: block;
+  }
+
+  
+  .hero .hero-heading .span{
+    color: black;
   }
